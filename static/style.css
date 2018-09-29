@@ -87,23 +87,26 @@ nav a.active {
 }
 
 .btn {
-    background: black;
-    border: 2px solid black;
-    width: 120px;
     display: block;
-    text-align: center;
+    width: 120px;
     padding: 5px 0px;
-    color: white;
+    border: 2px solid black;
     text-decoration: none;
+    text-align: center;
     margin-right: 5px;
     border-radius: 2px;
+    background: black;
+    color: white;
+}
+
+.btn-primary {
+    background: white;
+    color: black;
+    font-weight: bold;
 }
 
 .btn-secondary {
-    background: none;
-    border: 2px solid #ffffffd4;
-    font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .plan {
